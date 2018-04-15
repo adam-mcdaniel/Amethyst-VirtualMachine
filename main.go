@@ -37,7 +37,7 @@ func main() {
 	
 	// parser := parser.MakeParser("{condition < function < {function > ! {0} condition <} {condition > !} &} if < {1 |} {1} if > ! '\n' |")
 
-	// Making a game is possible using fox!
+	// Making a game is possible using amethyst!
 	parser := parser.MakeParser("240 320 'Adam' make > ! 'It works!!!\n' |")
 	tokens := parser.Parse()
 	// PrintList(tokens)
